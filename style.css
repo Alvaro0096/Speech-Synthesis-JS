@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #202020;
+    border-radius: 1rem;
+}
+
+#box_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#text_input{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    outline: none;
+    border: .3rem solid indigo;
+    border-radius: .5rem;
+}
+
+#selector{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+#box_button{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 2rem;
+    padding: .5rem;
+}
+
+button{
+    border: .2rem solid indigo;
+    border-radius: .5rem;
+    transition: 100ms;
+}
+
+button:hover{
+    background-color: indigo;
+    border: .2rem solid #202020;
+}
+
+@media (max-width: 768px){
+
+#container{
+    margin: 2rem;
+}
+
+#text_input{
+    font-size: 1.2rem;
+}
+
+}
